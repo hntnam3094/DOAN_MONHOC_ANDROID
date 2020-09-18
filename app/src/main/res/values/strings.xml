@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Map Project</string>
+    <string name="title_activity_map">MapActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="map_key" translatable="false">AIzaSyDc8XWaU8PXwOU1O-Sa9YM_Z3c72BM39gs</string>
+
+    <string name="map_key2" translatable="false">AIzaSyD4KfDcLVjVPatpIKtrPXot024Z4UHVZQ8</string>
+
+    <string name="map_key3" translatable="false">AIzaSyB68Hm5YUN6Gb8M-8d_ZFwyhUC1ezm7ugA</string>
+
+    <string name="map_key4" translatable="false">AIzaSyA6Y2BX-uF7ttWvfucY47nRsIUuz_LpJJE</string>
+</resources>

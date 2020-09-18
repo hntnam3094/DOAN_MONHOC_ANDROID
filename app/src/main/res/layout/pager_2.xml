@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#A5A283"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="8dp"
+        android:background="@color/white">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            >
+<!--            <ImageView-->
+<!--                android:id="@+id/image"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:src="@drawable/map4"-->
+<!--                android:scaleType="centerCrop"/>-->
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Old Location"
+
+                android:paddingLeft="10dp"
+                android:textSize="30dp"
+                android:fontFamily="serif-monospace"
+                android:textColor="#000"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:maxLines="8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+You can save all the places you went through with just a few small steps.
+ The location is saved to your phone, you can find it again at any time without having to
+ remember it."
+                android:layout_below="@id/name"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:textColor="#000"
+                android:padding="10dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btntryitnow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRY IT NOW!"
+        android:background="#f90"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:layout_margin="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/edName_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME CURRENT LOCATION"
+        android:fontFamily="serif-monospace"/>
+    <EditText
+        android:id="@+id/edTitle_infp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TITLE CURRENT LOCATION"
+        android:fontFamily="serif-monospace"/>
+    <Button
+        android:id="@+id/btnAddCurrentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD CURRENT LOCATION"
+        android:fontFamily="serif-monospace"/>
+</LinearLayout>

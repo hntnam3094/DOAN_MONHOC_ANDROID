@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+android:background="#C5A5A6"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="8dp"
+        android:background="@color/white">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="20dp"
+           >
+
+
+           <TextView
+               android:id="@+id/name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Your Location"
+               android:paddingLeft="10dp"
+               android:textSize="30dp"
+               android:fontFamily="serif-monospace"
+               android:textColor="#000"
+               android:padding="10dp"
+               />
+
+           <TextView
+               android:maxLines="8"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="
+The blue dot indicates where you are on the map. When Google Maps is uncertain
+about your location, you will see a light blue circle around the blue dot.
+ You can be anywhere in this light blue circle.
+The smaller the circle, the more secure Maps is about your location."
+               android:layout_below="@id/name"
+               android:paddingLeft="10dp"
+               android:textSize="15dp"
+               android:fontFamily="serif-monospace"
+               android:textColor="#000"
+               android:padding="10dp"/>
+       </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btntryitnow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRY IT NOW!"
+        android:background="#f90"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:layout_margin="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

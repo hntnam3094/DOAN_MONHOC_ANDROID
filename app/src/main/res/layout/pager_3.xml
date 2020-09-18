@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#B7A797"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="8dp"
+        android:background="@color/white">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            >
+<!--            <ImageView-->
+<!--                android:id="@+id/image"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:src="@drawable/map2"-->
+<!--                android:scaleType="centerCrop"/>-->
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Everytime, Everywhere"
+
+                android:paddingLeft="10dp"
+                android:textSize="30dp"
+                android:fontFamily="serif-monospace"
+                android:textColor="#000"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:maxLines="8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+Anytime, anywhere, you can open the app and search for a location,
+ when you get lost somewhere strange, you can save a place where you're
+ going without having to remember the address. there! If you get lost,
+ just open the app and follow the instructions and return safely"
+                android:layout_below="@id/name"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:textColor="#000"
+                android:padding="10dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btntryitnow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRY IT NOW!"
+        android:background="#f90"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:layout_margin="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
